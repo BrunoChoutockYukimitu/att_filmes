@@ -4,7 +4,7 @@ include "cabecalho.php"
 
 <div class="form-container">
     <h2>Fale com a gente 🎬</h2>
-    <form action="#" method="post">
+    <form action="resposta.php" method="post">
         <label for="nome">Nome</label>
         <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
 
