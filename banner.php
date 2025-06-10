@@ -1,13 +1,13 @@
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="imagens/banner.jpg" class="d-block w-100" alt="thunder bolts">
+      <img src="filmes/banner.jpg" class="d-block w-100" alt="thunder bolts">
     </div>
     <div class="carousel-item">
-      <img src="imagens/banner.jpg" class="d-block w-100" alt="thunder bolts">
+      <img src="filmes/banner.jpg" class="d-block w-100" alt="thunder bolts">
     </div>
     <div class="carousel-item">
-      <img src="imagens/banner.jpg" class="d-block w-100" alt="thunder bolts">
+      <img src="filmes/banner.jpg" class="d-block w-100" alt="thunder bolts">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

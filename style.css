@@ -86,22 +86,6 @@ h2 {
     margin-bottom: 30px;
 }
 
-.form-container {
-    background-color: #ececec;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
-    width: 100%;
-    max-width: 500px;
-    margin:20px auto;
-}
-
-.form-container h2 {
-    text-align: center;
-    color: #e50914;
-    margin-bottom: 30px;
-}
-
 label {
     display: block;
     margin-bottom: 8px;
@@ -148,7 +132,7 @@ button:hover {
     }
 }
 
-.container{
+/*.container{
     width: 900px;
     margin: 0 auto;
     display: flex;
@@ -168,3 +152,19 @@ button:hover {
 .container p{
     margin: 0 50px;
 }
+.form-container {
+    background-color: #ececec;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    margin:20px auto;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #e50914;
+    margin-bottom: 30px;
+}
+*/
