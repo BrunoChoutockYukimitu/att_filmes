@@ -1,6 +1,6 @@
 <footer class="rodape">
     <hr>
-    <img src="imagens/logo.png" class="logo">
+    <img src="filmes/logo.png" class="logo">
     <small><?php echo date("Y"); ?></small>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
