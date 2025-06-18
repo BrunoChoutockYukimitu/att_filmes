@@ -26,7 +26,9 @@ $resultado = mysqli_query($conexao, $sql);
         <div class="col-3 mb-4">
                 <img src="<?=$linha['foto'];?>"class="img-fluid">
                 <h3><?=$linha['titulo'];?></h3>
-                <span>⭐<?=$linha['avaliacao'];?>/10</span>
+                <span>⭐<?=$linha['avaliacao'];?>/10</span><br>
+                <a href="umfilme.php?id=<?= $linha['id'] ?>" class="btn btn-primary">Veja detalhes</a>
+ 
         </div>
 <?PHP
 }?>
