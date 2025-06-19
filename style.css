@@ -131,7 +131,9 @@ button:hover {
         padding: 30px 20px;
     }
 }
-
+.capa-filme{
+    height: 400px;
+}
 /*.container{
     width: 900px;
     margin: 0 auto;
