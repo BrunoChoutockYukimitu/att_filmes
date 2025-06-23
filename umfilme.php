@@ -1,4 +1,14 @@
-<?php include "cabecalho.php"; ?>
+<?php include "cabecalho.php";
+//recupegar informação do id 
+$id = $_GET['id'];
+//conecção com bd;;
+//montagem do sql
+//execução do sql
+//definição das variaveis do filme
+//laço com as informações do filme
+//mostrar as informações na tela
+//fechar o bd
+ ?>
 <?php
 include "conexao.php";
        
@@ -14,7 +24,11 @@ include "conexao.php";
           ?>
           <div class="container">
             <h2><?=$linha['titulo'];?></h2>
-            <img src="<?=$linha['foto'];?>">
+
+            <div class="text-center">
+  <img src="<?=$linha['foto'];?>" class="rounded" alt="filme_imagem">
+</div>
+        
             <p>⭐ <?=$linha['avaliacao'];?>/10</p>
             <p><strong>Categoria: </strong> <?=$linha['categoria'];?> </p>
             <p><strong>História:</strong> <?=$linha['historia'];?></p>
