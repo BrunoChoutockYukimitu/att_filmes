@@ -28,7 +28,7 @@ while ($linha = mysqli_fetch_assoc($resultado)) {
       <img src="<?= $linha['foto']; ?>" class="img-fluid" alt="filme_imagem">
       </div>
       <div class="col">
-        <h2><?= $linha['titulo']; ?></h2>
+        <h2 class="text-start"><?= $linha['titulo']; ?></h2>
       <p>⭐ <?= $linha['avaliacao']; ?>/10</p>
       <p><strong>Categoria: </strong> <?= $linha['categoria']; ?> </p>
       <p><strong>História:</strong> <?= $linha['historia']; ?></p>
